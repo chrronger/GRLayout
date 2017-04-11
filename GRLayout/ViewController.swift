@@ -8,10 +8,12 @@
 
 import UIKit
 
+//函数作为参数
 internal func Init<T> (_ type: T,block:(_ object: T) ->Void) ->T {
     block(type)
     return type
 }
+
 
 class ViewController: UIViewController {
 
@@ -151,10 +153,13 @@ class ViewController: UIViewController {
             
         }
         
+        
+        
         onView.addSubview(label)
         return label
     }
-
+    
+    
 
 }
 

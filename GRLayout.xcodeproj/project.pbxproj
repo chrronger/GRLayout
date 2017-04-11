@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000E3DA21E8A40D800E0C048 /* GRLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000E3DA11E8A40D800E0C048 /* GRLayoutHelper.swift */; };
 		A67EB6F21DFFDF2A00A643ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EB6F11DFFDF2A00A643ED /* AppDelegate.swift */; };
 		A67EB6F41DFFDF2A00A643ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EB6F31DFFDF2A00A643ED /* ViewController.swift */; };
 		A67EB6F71DFFDF2A00A643ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67EB6F51DFFDF2A00A643ED /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		A67EB6FC1DFFDF2A00A643ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67EB6FA1DFFDF2A00A643ED /* LaunchScreen.storyboard */; };
 		A67EB7071DFFDF2A00A643ED /* GRLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EB7061DFFDF2A00A643ED /* GRLayoutTests.swift */; };
 		A67EB7121DFFDF2A00A643ED /* GRLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EB7111DFFDF2A00A643ED /* GRLayoutUITests.swift */; };
-		A67EB7201DFFE02B00A643ED /* GRLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67EB71F1DFFE02B00A643ED /* GRLayoutHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000E3DA11E8A40D800E0C048 /* GRLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GRLayoutHelper.swift; path = GRLayout/GRLayoutHelper.swift; sourceTree = SOURCE_ROOT; };
 		A67EB6EE1DFFDF2A00A643ED /* GRLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67EB6F11DFFDF2A00A643ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67EB6F31DFFDF2A00A643ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		A67EB70D1DFFDF2A00A643ED /* GRLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67EB7111DFFDF2A00A643ED /* GRLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRLayoutUITests.swift; sourceTree = "<group>"; };
 		A67EB7131DFFDF2A00A643ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A67EB71F1DFFE02B00A643ED /* GRLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GRLayoutHelper.swift; path = ../GRLayoutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		A67EB7211DFFE06E00A643ED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				A67EB71F1DFFE02B00A643ED /* GRLayoutHelper.swift */,
+				000E3DA11E8A40D800E0C048 /* GRLayoutHelper.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			files = (
 				A67EB6F41DFFDF2A00A643ED /* ViewController.swift in Sources */,
 				A67EB6F21DFFDF2A00A643ED /* AppDelegate.swift in Sources */,
-				A67EB7201DFFE02B00A643ED /* GRLayoutHelper.swift in Sources */,
+				000E3DA21E8A40D800E0C048 /* GRLayoutHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
